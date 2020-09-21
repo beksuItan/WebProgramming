@@ -1,0 +1,23 @@
+body{
+    background-color:#e8faff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main{
+    position: relative;
+    width: 600px;
+    height: 750px;
+    background-image: url(images/background.jpg);
+    margin:auto;
+    padding:20px;
+}
+
+.avatar{
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    border-radius: 50%;
+}
