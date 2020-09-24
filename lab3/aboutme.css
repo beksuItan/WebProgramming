@@ -4,18 +4,19 @@ body{
 }
 
 .main{
-    position: relative;
+    position: absolute;
+    left: 25em;
+    right:25em;
     width: 600px;
     height: 750px;
     background-image: url(images/background.jpg);
-    margin:auto;
+    /* margin:auto; */
     padding:20px;
 }
 
 .avatar{
     width: 140px;
     height: 140px;
-    text-align: center;
     margin-left: 200px;
     margin-right: 200px;
     padding: 10px;
