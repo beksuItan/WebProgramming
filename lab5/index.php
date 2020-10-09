@@ -66,11 +66,11 @@
     <?php
         $val = 5049;
 
-        $hours = (int)($val / 3600);
-        $minutes = (int)(($val % 3600)/60);
-        $seconds = (int)($val % 60);
+        $h = (int)($val / 3600);
+        $min = (int)(($val % 3600)/60);
+        $sec = (int)($val % 60);
 
-        print "$hours hours $minutes minutes $seconds seconds"
+        print "$h hours $min minutes $sec seconds"
 
     ?>
 
@@ -79,23 +79,18 @@
 
     <?php
         $amount = 100;
-
         $cost = 45;
-
         $numbers = array(50,20,10,5,2,1);
-
-        $diff = $amount - $cost;
+        $return = $amount - $cost;
 
         foreach($numbers as $val){
-            $cnt = (int)($diff/$val);
+            $num = (int) ($return/$val);
 
-            print "Number of $val cent coins: $cnt. <br><br>";
+            print "Number of coins $val : $num <br><br>";
 
-            $diff -= $cnt*$val;
+            $return = $return - $num*$val;
         }
 
-        
-        
     ?>
 
 </body>
