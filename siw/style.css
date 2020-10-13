@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 148px;
+    z-index: 2;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+.nav__list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav__item{
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.nav__link{
+    font-size:18px;
+    font-weight: 300;
+    color:#fff;
+    text-decoration: none;
+    padding:20px 0px;
+    display: inline-block;
+    position: relative;
+}
+
+/* .nav__link::before {
+    transition: 300ms;
+    height: 6px;
+    content: "";
+    position: absolute;
+    background-color:#fff;
+}
+
+.nav__link::before {
+    width: 0%;
+    bottom: 1px;
+}
+  
+.nav__link:hover::before {
+    width: 100%;
+} */
+
+
+.contact{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-image: url(images/banner.jpg);
+    background-position: center;
+
+}
+
+.banner__title{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+
+
+
