@@ -7,15 +7,18 @@
 </head>
 <body>
 
-    <form action="ex3.php" method="GET">
-        Radius: <input type="text" name="radius"><br>
+    <a href="index.html">Home</a>
+
+
+    <form action="ex3.php" method="POST">
+        Radius: <input type="number" name="radius"><br>
         <input type="submit">
     </form>
 
 
     <?php
         $PI = 3.14159;
-        $input = $_GET["radius"];
+        $input = $_POST["radius"];
 
         $d = 2*$input;
         print "Diameter = $d \n <br><br>";

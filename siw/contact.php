@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/all.css">
-
-    <title>About us</title>
+    <title>Contact Us</title>
 </head>
 <body>
 
-    <section class="about">
+    <section class="contact">
         <header class="header">
             <div class="logo">Travello</div>
                 <ul class="nav__list">
@@ -17,50 +16,18 @@
                     <li class="nav__item"><a class="nav__link" href="">About us</a></li>
                     <li class="nav__item"><a class="nav__link" href="">Services</a></li>
                     <li class="nav__item"><a class="nav__link" href="">News</a></li>
-                    <li class="nav__item"><a class="nav__link" href="contact.php">Contact us</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">Contact us</a></li>
                 </ul>
                 <div class="contact">Call us: 00-56 445 678 33</div>
         </header>
 
-        <div class="about__content">
-            <h2 class="about__title">About us</h2>               
+        <div class="contact__content">
+            <h2 class="contact__title">Contact us</h2>
+               
         </div>
 
     </section>
 
-
-    <section class="aboutus">
-        <div class="about__info">
-            <p class="about__title">SIMPLFY AMAZING PLACES</p>
-            <h1 class="about__subtitle">A few words about us</h1>
-        </div>
-        <div class="main">
-            <div class="about__main">
-                <div class="about-title">
-                    <b>Pellentesque sit amet elementum ccumsan sit amet mattis eget,
-                    tristique at leo. Vivamus massa.Tempor massa et laoreet .
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b>
-                </div>
-    
-                <div class="about-text">
-                    <p>
-                    Pellentesque sit amet elementum ccumsan sit amet mattis eget,
-                    tristique at leo. Vivamus massa.Tempor massa et laoreet .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu laoreet ante, sollicitudin volutpat quam. Vestibulum posuere malesuada ultrices. In pulvinar rhoncus lacus at aliquet. Nunc vitae lacus varius, auctor nisi sit amet, consectetur mauris. Curabitur sodales semper est, vel faucibus urna laoreet vel. Ut justo diam,
-                    sodales non pulvinar at, vulputate quis neque. Etiam aliquam purus vel ultricies consequat.
-                    </p>
-    
-                </div>
-    
-                <button class="about-btn">READ MORE</button>
-            </div>
-    
-            <div class="about__photo">
-                <img class="photo" src="images/about1.jpg">
-            </div>
-
-        </div>
-        
-    </section>
 
     <footer class="footer">
         <div class="footer__main">
@@ -106,8 +73,6 @@
         
 
     </footer>
-
     
-
 </body>
 </html>

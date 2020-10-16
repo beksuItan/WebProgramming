@@ -6,58 +6,62 @@
     <title>Part 2 - Ex 4</title>
 </head>
 <body>
-    <form action="ex4.php" method="GET">
-        <input type="text" name="num1" ><br>
-        <input type="text" name="num2" ><br>
-        <input type="text" name="calc" ><br>
+    <a href="index.html">Home</a>
+
+    <form action="ex4.php" method="POST">
+        <input type="number" name="num1" ><br>
+        <input type="number" name="num2" ><br>
+        <input type="text" name="operation" ><br>
 
         <input type="submit">
     </form>
 
 
     <?php
-        function calc($n1, $n2,$operation){
-            switch($operation){
-                case '+':
-                    $res = $n1 + $n2;
-                    return "Addition is: ". $res;
-                    break;
-                case '-':
-                    $res = $n1 - $n2;
-                    return "Substraction is: ". $res;
-                    break;
-                case '*':
-                    $res = $n1 * $n2;
-                    return "Multiplication is: ". $res;
-                    break;
-                case '/':
-                    if($n2 != 0){
-                        $res = $n1 / $n2;
-                        return "Division is: ". $res;
-                    }else{
-                        print "Error";
-                    }
-                    break;
-                case '%':
-                    if($n2 != 0){
-                        $res = $n1 % $n2;
-                        return "MOD is: ". $res;
-                    }else{
-                        print "Error";
-                    }
-                default:
-                    return "Sorry, cannot calculate expression.";
-            }
 
+        if(isset($_POST["num1"])){
+            $n1 = $_POST["num1"];
+        }else{
+            $n1 = 0;
         }
 
-        $num1 = $_GET["num1"];
-        $num2 = $_GET["num2"];
-        $operation = $_GET["calc"];
+        if(isset($_POST["num2"])){
+            $n2 = $_POST["num2"];
+        }else{
+            $n2 = 0;
+        }
 
-
-        echo calc($num1,$num2,$operation);
-            
+        $operation = $_POST["operation"];
+        
+        switch($operation){
+            case '+':
+                $res = $n1 + $n2;
+                echo "Addition is: ". $res;
+                break;
+            case '-':
+                $res = $n1 - $n2;
+                echo "Subsctraction is: ". $res;
+                break;
+            case '*':
+                $res = $n1 * $n2;
+                echo "Multiplication is: ". $res;
+                break;
+            case '/':
+                if($n2 != 0){
+                    $res = $n1 / $n2;
+                    echo "Division is: ". $res;
+                }else{
+                    echo "Error";
+                }
+                break;
+            case '%':
+                if($n2 != 0){
+                    $res = $n1 % $n2;
+                    echo "Mod is: ". $res . "\n";
+                }else{
+                    echo "Error";
+                }   
+        }  
     ?>
     
 </body>

@@ -6,23 +6,19 @@
     <title>Part 1 - Ex 6</title>
 </head>
 <body>
-    <!-- <form action="ex6.php" method="GET">
-        Array: <input type="text" name="array[]"><br>
+    <a href="index.html">Home</a>
+
+
+    <form action="ex6.php" method="POST">
+        Array: <input type="number" name="cost"><br>
         <input type="submit">
-    </form> -->
+    </form>
     
 
     <?php
-        $cost = $_GET["cost"];
+        $cost = $_POST["cost"];
 
-        $num1 = $_GET["array1"];
-        $num2 = $_GET["array2"];
-        $num3 = $_GET["array3"];
-        $num4 = $_GET["array4"];
-        $num5 = $_GET["array5"];
-        $num6 = $_GET["array6"];
-
-        $numbers = array($num1,$num2,$num3,$num4,$num5,$num6);
+        $numbers = array(50,20,10,5,2,1);
         $amount = 100;
         $return = $amount - $cost;
 

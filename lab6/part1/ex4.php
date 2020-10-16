@@ -6,13 +6,15 @@
     <title>Part 1 - Ex 4</title>
 </head>
 <body>
-    <form action="ex4.php" method="GET">
-        Time on seconds: <input type="text" name="time"><br>
+    <a href="index.html">Home</a>
+
+    <form action="ex4.php" method="POST">
+        Time on seconds: <input type="number" name="time"><br>
         <input type="submit">
     </form>
 
     <?php
-        $input = $_GET["time"];
+        $input = $_POST["time"];
         $h = (int)($input / 3600);
         $min = (int)(($input % 3600)/60);
         $sec = (int)($input % 60);

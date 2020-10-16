@@ -6,17 +6,19 @@
     <title>Part 2 - Ex 2</title>
 </head>
 <body>
+    <a href="index.html">Home</a>
+
     <form action="ex2.php" method="GET">
-        Number 1: <input type="text" name="number1"><br>
-        Number 2: <input type="text" name="number2"><br>
-        Number 3: <input type="text" name="number3"><br>
-        Number 4: <input type="text" name="number4"><br>
-        Number 5: <input type="text" name="number5"><br>
-        Number 6: <input type="text" name="number6"><br>
-        Number 7: <input type="text" name="number7"><br>
-        Number 8: <input type="text" name="number8"><br>
-        Number 9: <input type="text" name="number9"><br>
-        Number 10: <input type="text" name="number10"><br>
+        Number 1: <input type="number" name="number1"><br>
+        Number 2: <input type="number" name="number2"><br>
+        Number 3: <input type="number" name="number3"><br>
+        Number 4: <input type="number" name="number4"><br>
+        Number 5: <input type="number" name="number5"><br>
+        Number 6: <input type="number" name="number6"><br>
+        Number 7: <input type="number" name="number7"><br>
+        Number 8: <input type="number" name="number8"><br>
+        Number 9: <input type="number" name="number9"><br>
+        Number 10: <input type="number" name="number10"><br>
 
         <input type="submit">
     </form>

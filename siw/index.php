@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="travel.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
 
     <title>Travello</title>
 </head>
 <body>
-
     <section class="banner">
         <header class="header">
             <div class="logo">Travello</div>
@@ -20,7 +17,7 @@
                     <li class="nav__item"><a class="nav__link" href="about.php">About us</a></li>
                     <li class="nav__item"><a class="nav__link" href="">Services</a></li>
                     <li class="nav__item"><a class="nav__link" href="">News</a></li>
-                    <li class="nav__item"><a class="nav__link" href="">Contact us</a></li>
+                    <li class="nav__item"><a class="nav__link" href="contact.php">Contact us</a></li>
                 </ul>
                 <div class="contact">Call us: 00-56 445 678 33</div>
         </header>
@@ -28,13 +25,13 @@
         <div class="banner__content">
             <h2 class="banner__title">Let us take you away</h2>
             <div class="banner__search">
-                <!-- <div class="banner_search_elements">
+                <div class="banner_search_elements">
                     <input type="text" class="search_city" placeholder="City">
                     <input type="text" class="search_dep" placeholder="Depature">
                     <input type="text" class="search_arrival" placeholder="Arrival">
                     <input type="text" class="search_budget" placeholder="Budget">
-                    <button class="search_button">Search</button>
-                </div> -->
+                    <button class="search_btn">Search</button>
+                </div>
             </div>
         </div>
 
@@ -54,15 +51,16 @@
             }
         }
 
-        $place1 = new Place("Bali", "Nulla pretium tincidunt felis, nec.","From $679", "des1.jpg");
+        $place1 = new Place("Bali", "Nulla pretium tincidunt felis, nec.","From $400", "des1.jpg");
         $place2 = new Place("Indonesia", "Nulla pretium tincidunt felis, nec.", "From $679", "des2.jpg");
-        $place3 = new Place("San Francisco", "Nulla pretium tincidunt felis, nec.", "From $679", "des3.jpg");
-        $place4 = new Place("Paris", "Nulla pretium tincidunt felis, nec.","From $679", "des4.jpg");
-        $place5 = new Place("Mykonos", "Nulla pretium tincidunt felis, nec.", "From $679", "des5.jpg");
-        $place6 = new Place("Phi Phi Island", "Nulla pretium tincidunt felis, nec.","From $679", "des6.jpg");
-        $place7 = new Place("Phi Phi Island", "Nulla pretium tincidunt felis, nec.","From $679", "des6.jpg");
-        $place8 = new Place("San Francisco", "Nulla pretium tincidunt felis, nec.", "From $679", "des3.jpg");
-        
+        $place3 = new Place("San Francisco", "Nulla pretium tincidunt felis, nec.", "From $890", "des3.jpg");
+        $place4 = new Place("Paris", "Nulla pretium tincidunt felis, nec.","From $900", "des4.jpg");
+        $place5 = new Place("Mykonos", "Nulla pretium tincidunt felis, nec.", "From $300", "des5.jpg");
+        $place6 = new Place("Phi Phi Island", "Nulla pretium tincidunt felis, nec.","From $490", "des6.jpg");
+        $place7 = new Place("Phi Phi Island", "Nulla pretium tincidunt felis, nec.","From $600", "des6.jpg");
+        $place8 = new Place("San Francisco", "Nulla pretium tincidunt felis, nec.", "From $770", "des3.jpg");
+        $place9 = new Place("Paris", "Nulla pretium tincidunt felis, nec.","From $900", "des4.jpg");
+
         $places = array(
             $place1,
             $place2,
@@ -71,7 +69,8 @@
             $place7,
             $place5,
             $place6,
-            $place8
+            $place8,
+            $place9
         )
     ?>
 
@@ -85,10 +84,10 @@
                 <?php
                     foreach ($places as $place): ?>
                         <div class="place">
-                            <img width='300' height='300' src="images/<?php echo $place->image; ?>" >
-                            <div><?php echo $place->title; ?></div>
-                            <div><?php echo $place->subtitle; ?></div>
-                            <div><?php echo $place->price; ?></div>                           
+                            <img width='350' height='250' src="images/<?php echo $place->image; ?>" >
+                            <div class="place-title"><?php echo $place->title; ?></div>
+                            <div class="place-subtitle"><?php echo $place->subtitle; ?></div>
+                            <div class="place-price"><?php echo $place->price; ?></div>                           
                         </div>
 
                 <?php endforeach; ?>
