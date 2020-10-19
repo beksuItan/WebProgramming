@@ -6,10 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="ex1.php" method="POST">
+    <!-- <form action="ex1.php" method="POST">
         <input type="number" name="var"><br>
         <input type="submit">
-    </form>
+    </form> -->
+    <a href="index.html">Back to HOME</a>
 
 
     <p>Exercise 1.1</p>
@@ -25,7 +26,8 @@
             echo $res;
         }
 
-        $x = $_POST["var"];
+        // $x = $_POST["var"];
+        $x = 10;
         
         first($x);
     
@@ -46,7 +48,8 @@
             echo $res;
         }
 
-        $x = $_POST["var"];
+        // $x = $_POST["var"];
+        $x = 4;
 
         second($x);
     ?>
@@ -69,7 +72,8 @@
             echo $res;
         }
 
-        $x = $_POST["var"];
+        // $x = $_POST["var"];
+        $x = 3;
         
         third($x);
     
@@ -91,7 +95,9 @@
             echo $res;
         }
 
-        $x = $_POST["var"];
+        // $x = $_POST["var"];
+
+        $x = -1;
     
         fourth($x);
     
@@ -115,7 +121,8 @@
             echo $res;
         }
 
-        $x = $_POST["var"];
+        // $x = $_POST["var"];
+        $x = 6;
     
         fifth($x);
     
@@ -136,7 +143,8 @@
             }
         }
         
-        $x = $_POST["var"];
+        // $x = $_POST["var"];
+        $x = 5;
 
         sixth($x);
     
