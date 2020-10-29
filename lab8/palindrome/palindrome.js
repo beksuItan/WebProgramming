@@ -20,10 +20,13 @@ let isPalindrome = (word) => {
         }
     }
 
-    (isPal) ? alert("Palindrome"): alert("Not palindrome");
+    return isPal;
 
 };
 
-let word = prompt("Enter word: ");
+let test = () => {
+    let word = document.getElementById("val").value;
 
-isPalindrome(word);
+    (isPalindrome(word)) ? alert("Palindrome"): alert("Not palindrome");
+
+}
