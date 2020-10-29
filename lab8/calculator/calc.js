@@ -32,8 +32,6 @@ function calc(){
     let first = Number(document.getElementById("first").value);
     let second = Number(document.getElementById("second").value);
 
-    console.log(typeof(first));
-
     switch(operation){
         case '+':
             result = first + second;

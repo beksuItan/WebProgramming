@@ -24,7 +24,7 @@ let isPalindrome = (word) => {
 
 };
 
-let test = () => {
+function test(){
     let word = document.getElementById("val").value;
 
     (isPalindrome(word)) ? alert("Palindrome"): alert("Not palindrome");
