@@ -1,0 +1,40 @@
+.course{
+    background-color: #f9f9ff;
+    padding: 200px 0px;
+}
+
+.course_item{
+    margin:10px;
+    width: 360px;
+    height: 412px;
+}
+
+.course_item .details{
+    margin-top: 10px;
+    padding: 5px 30px 30px 30px;
+}
+
+.course_item p{
+    color:#777;
+}
+
+.course_item h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+.course_item .price{
+    color: #f53f51;
+}
+
+.course_item .sale-btn{
+    background-color: #f53f51;
+    color: #fff;
+    width: 140px;
+    text-align: center;
+    padding: 10px 20px;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 30px;
+}

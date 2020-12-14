@@ -1,0 +1,40 @@
+{
+    "places":[
+        {
+            "title":"Bali",
+            "subtitle":"Nulla pretium tincidunt felis, nec.",
+            "price":400,
+            "image":"des1.jpg"
+        },
+        {
+            "title":"Indonesia",
+            "subtitle":"Nulla pretium tincidunt felis, nec.",
+            "price":679,
+            "image":"des2.jpg"
+        },
+        {
+            "title":"San Francisco",
+            "subtitle":"Nulla pretium tincidunt felis, nec.",
+            "price":890,
+            "image":"des3.jpg"
+        },
+        {
+            "title":"Paris",
+            "subtitle":"Nulla pretium tincidunt felis, nec.",
+            "price":900,
+            "image":"des4.jpg"
+        },
+        {
+            "title":"Mykonos",
+            "subtitle":"Nulla pretium tincidunt felis, nec.",
+            "price":300,
+            "image":"des5.jpg"
+        },
+        {
+            "title":"Phi Phi Island",
+            "subtitle":"Nulla pretium tincidunt felis, nec.",
+            "price":490,
+            "image":"des6.jpg"
+        }
+    ]
+}

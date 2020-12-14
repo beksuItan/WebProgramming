@@ -1,0 +1,36 @@
+.banner{
+    background-image: -webkit-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
+    /* height: 100vh; */
+}
+
+
+.banner_left{
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.banner_left h5{
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.banner_left h1{
+    font-size: 72px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.banner_right{
+    margin-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.btn-light{
+    border: 1px solid transparent;
+    color: black;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px;
+    font-weight: 500;
+}

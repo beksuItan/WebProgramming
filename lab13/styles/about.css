@@ -1,0 +1,25 @@
+.about{
+    padding: 120px 0px;
+}
+
+.about_image{
+    overflow: hidden;   
+}
+
+.about_content{
+    box-shadow: 0px 0px 50px 0px rgba(157, 157, 157, 0.3);
+    position: relative;
+    background: #fff;
+    padding: 60px 40px 60px 0px;
+}
+
+.about_content::after{
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 0;
+    z-index: 2;
+    background: #fff;
+    width: 70px;
+    height: 100%;
+}

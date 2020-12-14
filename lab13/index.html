@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 13 - Bootstrap</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Static style -->
+    <link rel="stylesheet" href="styles/all.css">
+</head>
+<body>
+    
+    <section class="banner">
+        <header class="header"> 
+            <div class="container">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+        
+                    <nav class="nav">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-uppercase" href="">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-uppercase" href="">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-uppercase" href="">Fact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-uppercase" href="">Price</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white text-uppercase" href="">Course</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white text-uppercase" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+        
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="banner_left col-lg-7">
+                    <h5 class="text-white text-uppercase">Author: Travor James</h5>
+                    <h1 class="text-white text-uppercase">New Adventure</h1>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Atque beatae nobis corrupti quo omnis doloribus ea iure error unde.</p>
+                    <a href="#" class="btn btn-light text-uppercase" role="button">Buy Now for $9.99</a>
+                </div>
+                <div class="banner_right col-lg-5">
+                    <img class="img-fluid" src="images/banner-img.png" alt="banner">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="row d-flex mt-40 align-items-center">
+                <div class="about_left col-lg-6 text-center">
+                    <div class="about_image">
+                        <img class="img-fluid" src="images/about-img.jpg" alt="about">
+                    </div>
+                </div>
+ 
+                <div class="about_right col-lg-6">
+                    <div class="about_content">
+                        <h2 class="pb-30">Dr. Travor James</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam amet ipsum explicabo rerum adipisci expedita corporis tempore enim perspiciatis ut quas,
+                          excepturi, atque nisi, velit eaque harum itaque quae odio?
+                        </p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam amet ipsum explicabo rerum adipisci expedita corporis tempore enim perspiciatis ut quas,
+                            excepturi, atque nisi, velit eaque harum itaque quae odio?
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="fact">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="course">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="course_title pb-60">
+                    <div class="text-center">
+                        <h1 class="mb-10">Top Courses That are open for Students</h1>
+                        <p>Who are in extremely love with eco friendly system.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="course_item">
+                    <img class="img-fluid" src="images/c1.jpg" alt="">
+                    <p class="sale-btn">For Sale</p>
+                    <div class="details">
+                        <a href="#"><h4>Breakthrough Thinking <span class="price float-right">$25</span></h4></a>	
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        </p>
+                    </div>
+                </div>
+                <div class="course_item">
+                    <img class="img-fluid" src="images/c2.jpg" alt="">
+                    <p class="sale-btn">For Sale</p>
+                    <div class="details">
+                        <a href="#"><h4>Breakthrough Thinking <span class="price float-right">$25</span></h4></a>	
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        </p>
+                    </div>
+                </div>
+                <div class="course_item">
+                    <img class="img-fluid" src="images/c3.jpg" alt="">
+                    <p class="sale-btn">For Sale</p>
+                    <div class="details">
+                        <a href="#"><h4>Breakthrough Thinking <span class="price float-right">$25</span></h4></a>	
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="footer-info">
+                        <h2>About us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita accusamus quisquam eius optio soluta ipsum ducimus
+                            eum doloribus vitae nostrum, maiores molestiae praesentium nesciunt corrupti</p>
+                        <p class="footer-bottom">
+                            Copyright ©2020 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Colorlib
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="footer-info">
+                        <h2>Newsletter</h2>
+                        <p>Stay update with our latest</p>
+                        <div class="signup">
+                            <form class="signup-form">
+                                <input class="form-control" name="email" placeholder="Enter Email" required type="email">
+                                <button class="click-btn btn btn-default">
+                                    <i class="fa fa-long-arrow-right text-white" aria-hidden="true"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    <div class="footer-info">
+                        <h6>Follow Us</h6>
+                        <p>Let us be social</p>
+                        <div class="footer-social d-flex align-items-center">
+                            <a href="#"><i class="fa fa-facebook text-white mr-5"></i></a>
+                            <a href="#"><i class="fa fa-twitter text-white mr-5"></i></a>
+                            <a href="#"><i class="fa fa-dribbble text-white mr-5"></i></a>
+                            <a href="#"><i class="fa fa-behance text-white mr-5"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
